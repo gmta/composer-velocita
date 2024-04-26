@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ISAAC\Velocita\Composer\Composer;
+namespace GMTA\Velocita\Composer\Composer;
 
 use LogicException;
 

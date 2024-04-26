@@ -1,5 +1,5 @@
 {
-    "name": "isaac/composer-velocita",
+    "name": "gmta/composer-velocita",
     "description": "Fast and reliable Composer package downloads by using Velocita",
     "keywords": ["composer", "cache", "performance", "speed", "availability", "velocita"],
     "type": "composer-plugin",
@@ -10,6 +10,9 @@
             "email": "jelle@gmta.nl"
         }
     ],
+    "replace": {
+        "isaac/composer-velocita": "*"
+    },
     "require": {
         "php": ">=7.4",
         "ext-json": "*",
@@ -26,7 +29,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "ISAAC\\Velocita\\Composer\\": "src/"
+            "GMTA\\Velocita\\Composer\\": "src/"
         }
     },
     "config": {
@@ -37,6 +40,6 @@
         }
     },
     "extra": {
-        "class": "ISAAC\\Velocita\\Composer\\VelocitaPlugin"
+        "class": "GMTA\\Velocita\\Composer\\VelocitaPlugin"
     }
 }

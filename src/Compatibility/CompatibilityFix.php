@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ISAAC\Velocita\Composer\Compatibility;
+namespace GMTA\Velocita\Composer\Compatibility;
 
 use Composer\Plugin\PluginInterface;
 

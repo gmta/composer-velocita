@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ISAAC\Velocita\Composer\Config;
+namespace GMTA\Velocita\Composer\Config;
 
 use RuntimeException;
 

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace ISAAC\Velocita\Composer\Compatibility;
+namespace GMTA\Velocita\Composer\Compatibility;
 
 use Composer\Config;
 use Composer\IO\IOInterface;
 use Composer\Util\HttpDownloader;
-use ISAAC\Velocita\Composer\UrlMapper;
+use GMTA\Velocita\Composer\UrlMapper;
 
 use function sprintf;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ISAAC\Velocita\Composer;
+namespace GMTA\Velocita\Composer;
 
 use Composer\Composer;
 use Composer\EventDispatcher\EventSubscriberInterface;
@@ -15,13 +15,13 @@ use Composer\Plugin\PluginEvents;
 use Composer\Plugin\PluginInterface;
 use Composer\Plugin\PreFileDownloadEvent;
 use Exception;
-use ISAAC\Velocita\Composer\Commands\CommandProvider;
-use ISAAC\Velocita\Composer\Compatibility\CompatibilityDetector;
-use ISAAC\Velocita\Composer\Composer\ComposerFactory;
-use ISAAC\Velocita\Composer\Config\PluginConfig;
-use ISAAC\Velocita\Composer\Config\PluginConfigReader;
-use ISAAC\Velocita\Composer\Config\PluginConfigWriter;
-use ISAAC\Velocita\Composer\Config\RemoteConfig;
+use GMTA\Velocita\Composer\Commands\CommandProvider;
+use GMTA\Velocita\Composer\Compatibility\CompatibilityDetector;
+use GMTA\Velocita\Composer\Composer\ComposerFactory;
+use GMTA\Velocita\Composer\Config\PluginConfig;
+use GMTA\Velocita\Composer\Config\PluginConfigReader;
+use GMTA\Velocita\Composer\Config\PluginConfigWriter;
+use GMTA\Velocita\Composer\Config\RemoteConfig;
 use LogicException;
 use RuntimeException;
 use UnexpectedValueException;

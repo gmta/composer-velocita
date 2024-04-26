@@ -29,7 +29,7 @@ runCreateProject() {
 
 installVelocita() {
     composer global config repositories.velocita-src path /usr/src/velocita/
-    composer global require isaac/composer-velocita @dev
+    composer global require gmta/composer-velocita @dev
 }
 
 enableVelocita() {
@@ -47,7 +47,7 @@ runInstall /output/vanilla-install-output.txt
 
 # Configure Composer to allow plugins
 composer config -g allow-plugins.symfony/flex true
-composer config -g allow-plugins.isaac/composer-velocita true
+composer config -g allow-plugins.gmta/composer-velocita true
 
 # Velocita install
 installVelocita

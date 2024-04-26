@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace ISAAC\Velocita\Composer;
+namespace GMTA\Velocita\Composer;
 
-use ISAAC\Velocita\Composer\Config\MirrorMapping;
+use GMTA\Velocita\Composer\Config\MirrorMapping;
 
 use function ltrim;
 use function preg_match;

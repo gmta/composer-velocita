@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace ISAAC\Velocita\Composer\Compatibility;
+namespace GMTA\Velocita\Composer\Compatibility;
 
 use Composer\Composer;
 use Composer\Installer\PackageEvent;
 use Composer\IO\IOInterface;
-use ISAAC\Velocita\Composer\Composer\OperationAdapter;
-use ISAAC\Velocita\Composer\Composer\PluginHelper;
-use ISAAC\Velocita\Composer\UrlMapper;
+use GMTA\Velocita\Composer\Composer\OperationAdapter;
+use GMTA\Velocita\Composer\Composer\PluginHelper;
+use GMTA\Velocita\Composer\UrlMapper;
 
 use function array_key_exists;
 use function get_class;

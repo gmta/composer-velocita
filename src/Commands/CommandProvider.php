@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace ISAAC\Velocita\Composer\Commands;
+namespace GMTA\Velocita\Composer\Commands;
 
 use Composer\Plugin\Capability\CommandProvider as CommandProviderCapability;
-use ISAAC\Velocita\Composer\VelocitaPlugin;
+use GMTA\Velocita\Composer\VelocitaPlugin;
 
 class CommandProvider implements CommandProviderCapability
 {
